@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CodeDialog</class>
+ <widget class="QDialog" name="CodeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Code</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="titleEdit">
+     <property name="styleSheet">
+      <string notr="true">font-size: 14pt;
+padding: 5px;
+color:rgb(85, 255, 255);
+background-color:gray;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Enter title</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="codeEdit">
+     <property name="styleSheet">
+      <string>font-size: 12pt; background-color: #2b2b2b; color: white;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Paste your code here...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 255);
+color: gray;
+</string>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
